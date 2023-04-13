@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <meta charset='utf-8' />
+    <link rel='stylesheet' href='css/index.css' />
+</head>
+
+<body>
+    <div>
+        {{> product title=product.name price=product.cost img=product.img alt=product.name}}
+    </div>
+
+    {{{body}}}
+
+</body>
+
+</html>
